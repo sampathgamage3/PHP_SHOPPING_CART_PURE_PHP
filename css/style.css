@@ -1,0 +1,396 @@
+#Test .outer_wrapper {
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    float: left;
+    margin: 51px 0 !important;
+    padding: 25px 2%;
+    width: 96%;
+}
+#Test .h1_tag {
+    border-bottom: 4px solid #FFB76C;
+    margin-bottom: 15px !important;
+    padding: 15px 0 10px;
+    float: left;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 25px;
+    margin: 0 0 20px !important;
+    max-width: 100%;
+    padding: 0 0 15px;
+    width: 100%;
+}
+#Test form {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+#Test .form_sec {
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+
+#Test .sec_title {
+    background-color: #F9F9F9;
+    color: #474747;
+    float: left;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding: 2px 2%;
+    width: 100%;
+}
+#Test .sec_desc{
+  float: left;
+  margin: 10px 5%;
+  width: 90%;
+}
+
+
+#Test .input_wrapper {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 100%;
+}
+
+#Test .input_label {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 3%;
+    min-width: 100px;
+    text-align: left;
+    width: 12%;
+}
+
+#Test .input {
+    float: left;
+    margin-bottom: 0 !important;
+    margin-left: 0;
+    min-width: 155px;
+    width: 33%;
+}
+
+#Test .input input {
+    float: left;
+    padding: 5px 2%;
+    width: 95%;
+    max-width: 200px;
+}
+#Test .input_wrapper_left .input, #Test .input_wrapper_right .input {
+    width: 69%;
+}
+#Test .input_wrapper_left .input_label, #Test .input_wrapper_right .input_label {
+    width: 28% !important;
+}
+
+#Test select {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-right: 6%;
+    width: 28.4%;
+}
+
+#Test .input_wrapper_left select:last-child {
+    margin-right: 0;
+}
+
+#Test .input input[type="radio"] {
+    float: none;
+    margin: -5px 5px 0 29px;
+    width: auto;
+}
+
+#Test .input input[type="radio"]:first-child {
+    margin: -5px 5px 0 0;
+}
+#Test .input_wrapper_left {
+    float: left;
+    margin-right: 4%;
+    width: 48%;
+}
+#Test .input_wrapper_right {
+    float: left;
+    width: 48%;
+    margin: 0 !important;
+}
+#Test .submit {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: none;
+    border: 1px solid #faac00;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+    color: #fff;
+    float: right;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #ffd430; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffd430 0%, #faac00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd430), color-stop(100%,#faac00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffd430 0%,#faac00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffd430 0%,#faac00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffd430 0%,#faac00 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffd430 0%,#faac00 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd430', endColorstr='#faac00',GradientType=0 ); /* IE6-9 */
+
+}
+.header_menu{
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 0 0 0 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.navbar{
+    margin-bottom: 0px !important;
+}
+.footer_main{
+    background: none repeat scroll 0 0 #000000;
+    color:#fff;
+    margin-left: 0;
+}
+ .footer_main h2{
+ color: #FFFFFF;
+    font-size: 1.2em;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+    margin-left:12px;
+}
+.footer_sub a,p{
+      color: #ABABAB;
+    display: block;
+    font-size: 1em;
+    line-height: 1.8em;
+    transition: all 0.9s ease 0s;
+}
+.search {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 38px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    position: relative;
+    width: 67%;
+}
+
+.search input[type="text"] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #5A5A5A;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    outline: medium none;
+    padding: 10px 16px;
+    position: relative;
+    text-transform: capitalize;
+    width: 68.3333%;
+}
+
+.search input[type="submit"] {
+    background: url("../img/search1.png") no-repeat scroll 8px 12px transparent;
+    border: medium none;
+    cursor: pointer;
+    line-height: 1.5em;
+    outline: medium none;
+    padding: 10px 0;
+    position: absolute;
+    width: 14.33%;
+}
+.brands .logos a {
+    float:left;
+    width:15%;
+    margin-left:40px;
+    padding:8px
+}
+.top1 {
+    margin-left:20px  !important;
+    margin-top:30px;
+    width:30% !important;
+}
+.top1 img {
+    border-radius: 50% 50% 50% 50%;
+    margin-left:33%;
+}
+.top1 a,.top1 p,.top1 h3 {
+    text-decoration: none;
+    text-align: center
+}
+.top2{
+    margin-left:0px  !important;
+}
+.top2 p{
+    text-align: justify;
+}
+.header_menu h1 {
+    color: #FFFFFF !important;
+    float: left !important;
+    padding: 20px 90px !important;
+    width: auto !important;
+}
+.row-fluid.menu {
+    background: none repeat scroll 0 0 transparent;
+    float: right;
+    width: auto;
+}
+.header_cart {
+    float:right;
+    width:auto;
+}
+
+.cart {
+   float: right;
+    margin-right: 42px;
+    position: relative;
+    top: 2px;
+}
+.cart-ico{
+      background: url("../img/cart.png") no-repeat scroll 8px 12px transparent;
+    float: left;
+    height: 36px;
+    width: 43px;
+}
+
+.cart strong {
+     float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.product_div {
+    border: 1px dashed #CFCFCF;
+    float: left;
+    margin: 12px 0;
+    padding: 13px;
+}
+
+.addtoCart_btn{
+    border: 2px solid #888893;
+    border-radius: 25% 25% 25% 25%;
+    float: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 30px;
+    margin: 0 23px;
+    width: 80%;
+}
+.p_img_div{
+    float:left;
+    width:100%;
+}
+.prd_img{
+    float:none;
+    margin:0 auto;
+    width:100%;
+}
+.product_div p,.product_div h5 {
+    text-align: center;
+}
+
+.cart_pLi{
+     border-bottom: 1px dashed #CCCCCC;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.cart_pDiv{
+    float: left;
+    width: 98%;
+}
+.cart_pImage{
+     float: left;
+    margin: 5px;
+}
+.cart_pTitle{
+    float: left;
+    width: 68%;
+}
+.cart_pTitle h2 {
+     font-size: 22.5px;
+}
+.cart_pDesc{
+    float: left;
+    width: 68%;
+    margin-bottom:10px;
+}
+.cart_pDesc p {
+    margin :0;
+}
+.p-price{
+    float:left;
+}
+.remove-itm{
+      border: 1px solid #999988;
+    float: left;
+    height: 21px;
+    width: 20px;
+}
+.remove-itm a{
+    padding-left:7px;
+}
+.checkout_btn {
+    background: url("../img/checkout_btn.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: right;
+    height: 73px;
+    margin-right: 0;
+    margin-top: 30px;
+    width: 239px !important;
+     margin-bottom: 30px;
+}
+.removeProduct{
+    border:none;
+}
+.itemdel_frm{
+    width:auto !important;
+}
+.sam_submitBtn{
+     background-color: #FFFFFF !important;
+    border: 1px solid #000000 !important;
+    border-radius: 3px 3px 3px 3px !important;
+    padding: 5px 12px !important;
+    width: 100px !important;
+}
+.sam_textfeild{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: 30px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    width: 50%;
+}
+.error{
+    color:red;
+}
+#contact_div input[type=text],#contact_div textarea {
+     float: left;
+    height: 30px;
+    width: 56%;
+}
+#contact_div textarea {
+    height:150px;
+}
+#contact_div .consubmit {
+
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+#contact_div input[type=submit]
+{
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid blue;
+    padding: 9px 22px;
+}
